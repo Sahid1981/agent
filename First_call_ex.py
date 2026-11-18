@@ -11,7 +11,7 @@ client = OpenAI(
 vastaus = client.chat.completions.create(
     model=os.environ["deployment_name"],
     messages=[
-        {"role": "system", "content": "Vastaa lyhyesti suomeksi."},
+        {"role": "system", "content": "Vastaa kuin rakennuttajakonsultti"},
         {"role": "user", "content": "Mikä on RAG ja miksi yritykset käyttävät sitä?"},
     ],
 )

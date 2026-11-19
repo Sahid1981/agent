@@ -1,1 +1,23 @@
+# Salaisuudet (avaimet vain Streamlitin Secretsiin)
 .env
+.env.*
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Lähdedokumentit: isoja ja usein tekijänoikeudella suojattuja.
+# Pilveen riittää valmis chroma_db. Poista rivi, jos haluat PDF:t repoon.
+*.pdf
+
+# Editorit ja käyttöjärjestelmä
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# HUOM: myfiles/chroma_db/ EI ole tässä, koska pilvisovellus tarvitsee sen.
